@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="myCon-Web.config Connection String" description="myCon Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="server=172.16.0.5\SQL;database=users;persist security info=True;User ID= sqladmin;password=1#S0p0rt3VM$2" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\vtomatsu\\source\\repos\\TomsApp1\\TomsApp1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='myCon']/@connectionString" />
+  </parameter>
+</parameters>
